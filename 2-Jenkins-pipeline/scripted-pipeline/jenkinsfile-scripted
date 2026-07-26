@@ -1,13 +1,13 @@
 node {
     stage('Build') {
         // Run build commands
-        sh 'echo "Building project..."'
+        sh 'echo "Building Scripted Pipeline project..."'
     }
     stage('Test') {
         // Run tests
-        sh 'echo "Running tests..."'
+        sh 'echo "Running Scripted Pipeline tests..."'
     }
     stage('Deploy') {
-        sh 'echo "Deploying application..."'
+        sh 'echo "Deploying Scripted Pipeline application..."'
     }
 }
