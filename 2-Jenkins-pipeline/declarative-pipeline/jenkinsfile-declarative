@@ -5,21 +5,21 @@ pipeline {
         stage('Build') {
             steps {
                 // Run build commands
-                sh 'echo "Building project..."'
+                sh 'echo "Building Declarative Pipeline project..."'
             }
         }
         
         stage('Test') {
             steps {
                 // Run tests
-                sh 'echo "Running tests..."'
+                sh 'echo "Running Declarative Pipeline tests..."'
             }
         }
         
         stage('Deploy') {
             steps {
                 // Deploy step (dummy for now)
-                sh 'echo "Deploying application..."'
+                sh 'echo "Deploying Declarative Pipeline application..."'
             }
         }
     }
